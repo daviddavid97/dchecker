@@ -1,5 +1,6 @@
 package compare;
 
+//MyLevenshtein字符串比较算法
 public class MyLevenshtein {
 
     public static void main(String[] args) {
