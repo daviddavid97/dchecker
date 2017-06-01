@@ -53,7 +53,7 @@ public class TxtReader{
     /**
      * 读取文件指定行。
      */
-    public static void main(String[] args) throws IOException {
+    public static void readandwrite() throws IOException {
         File sourceFile = new File("/home/zxy/test2/大学生毕业论文范文参考.txt");
         // 读取指定的行
         readAppointedLineNumber(sourceFile);

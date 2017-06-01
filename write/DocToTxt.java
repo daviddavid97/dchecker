@@ -11,7 +11,7 @@ import java.io.FileWriter;
  * 测试将指定目录下的doc转换为txt
  * */
 public class DocToTxt {
-    public static void main(String[] args) {
+    public static void Totxt() {
         String src = "/home/zxy/test2";
         String dest = "/home/zxy/test2";
         wordToTxt(src, dest);
