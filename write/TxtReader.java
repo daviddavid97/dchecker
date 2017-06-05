@@ -28,7 +28,6 @@ public class TxtReader{
                 s.replace(" ", "");
                 writein(nu);
                 //下面一行准备删除
-                System.out.println(s);
             }
         }
         System.exit(0);

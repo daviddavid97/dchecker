@@ -12,24 +12,22 @@ import java.io.FileWriter;
  * */
 public class DocToTxt {
     public static void Totxt() {
-        String src = "/home/zxy/test2";
+        String src = "/home/zxy/test2/";
         String dest = "/home/zxy/test2";
         wordToTxt(src, dest);
     }
 
     public static void wordToTxt(String src, String dest) {
-        File dir = new File(src);
-        File[] files = dir.listFiles();
         int i = 0;
-        for (File file : files) { // 遍历指定目录
+        String add = "大学生毕业论文范文参考.doc";
+        File file = new File(src + add);
             try {
                 toTxt(file, dest);
                 i++;
             } catch (Exception e) {
                 System.out
-                        .println("文件" + file.getAbsolutePath() + "转化为txt文件失败");
+                        .println("文件"  + "转化为txt文件失败");
             }
-        }
         System.out.println("成功转化了 " + i + " 个文件");
     }
 
