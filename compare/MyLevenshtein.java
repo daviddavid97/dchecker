@@ -3,13 +3,6 @@ package compare;
 //MyLevenshtein字符串比较算法
 public class MyLevenshtein {
 
-    public static void main(String[] args) {
-        //要比较的两个字符串
-        String str1 = "今天星期四";
-        String str2 = "今天是星期五";
-        levenshtein(str1,str2);
-    }
-
     public static void levenshtein(String str1,String str2) {
         //计算两个字符串的长度。
         int len1 = str1.length();

@@ -34,7 +34,7 @@ public class TxtReader{
         in.close();
     }
     // 文件内容的总行数。
-    static int getTotalLines(File file) throws IOException {
+    public static int getTotalLines(File file) throws IOException {
         FileReader in = new FileReader(file);
         LineNumberReader reader = new LineNumberReader(in);
         String s = reader.readLine();
