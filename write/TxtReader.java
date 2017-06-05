@@ -30,7 +30,6 @@ public class TxtReader{
                 //下面一行准备删除
             }
         }
-        System.exit(0);
         reader.close();
         in.close();
     }

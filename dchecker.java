@@ -11,12 +11,12 @@ import java.io.IOException;
  */
 public class dchecker {
     public static void main(String[] args) throws IOException {
-        while (true) {
             filereceive();
             Totxt();
             readandwrite();
             readfrom();
             compare();
-        }
+        System.exit(0);
+
     }
 }
