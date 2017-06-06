@@ -5,7 +5,7 @@ package write;
  */
 //写入数据库
 public class write {
-    public static void writein(int i){
+    public static void writein(String s,int i){
         System.out.print("");
     }
 

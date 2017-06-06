@@ -24,10 +24,9 @@ public class TxtReader{
             s = reader.readLine();
             int len = s.length();
             if (len > 10) {
-                nu++;
                 s.replace(" ", "");
-                writein(nu);
-                //下面一行准备删除
+                writein(s,nu);
+                nu++;
             }
         }
         reader.close();
