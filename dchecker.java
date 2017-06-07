@@ -1,5 +1,5 @@
 import static compare.readfromsql.readfrom;
-import static receive.receive.filereceive;
+import static write.filereceive.filereceive;
 import static write.DocToTxt.Totxt;
 import static write.TxtReader.readandwrite;
 import static compare.compare.compare;

@@ -7,4 +7,5 @@ public class readfromsql {
     public static void readfrom(){
         System.out.println("w");
     }
+
 }
